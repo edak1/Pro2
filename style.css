@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(247, 214, 172);
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    width: 200px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li 
+{
+    list-style: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 850px;
+}
+.content .textBox h2
+{
+    color:#333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span
+{
+    color: #1e7aa5;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox p
+{
+  color: rgb(189, 140, 4);  
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #1e7aa5;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+.box > div{ 
+    width: 300px; 
+    border: 1px solid grey; 
+    margin: 20px; 
+    font-size: 20px;  
+} 
+.box { 
+    margin-top: 40px;
+    margin-right: 90px; 
+    display: flex; 
+    justify-content: center; 
+}
+#b1
+{
+    margin-left: 65px;
+}
+.head
+{
+    margin-top: 160px;
+    margin-left: 65px;
+}
+.head span
+{
+    color: #1e7aa5;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.demoinfo
+{
+    margin-top: 200px;
+    margin-left: 65px;
+}
+.sprt
+{
+    margin-top: 80px;
+    margin-left: 65px;
+}
+#b2
+{
+    margin-left: 65px;
+}
+.thesport
+{
+    margin-top: 160px;
+    margin-left: 65px;
+}
+.thesport span
+{
+    color: #1e7aa5;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.trad 
+{
+    margin-top: 200px;
+    margin-left: 65px;
+}
+.abays
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.infosoz
+{
+    margin-left: 100px;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+#b2
+{
+    margin-left: 100px;
+}
+#a1
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 1300px;
+   
+}

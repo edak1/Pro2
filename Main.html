@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                width: 100vh;
+                height: 95vh;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://99px.ru/sstorage/53/2013/09/tmb_80969_7560.jpg);
+                background-position: center;
+                background-size: cover;
+                display: block;
+                z-index: 10;
+            } 
+            .page {
+                display: flex;
+                width: auto;
+                height: auto;
+                z-index: 10;
+                position: fixed;
+            }
+            .pageHeader {
+                display: block;
+                position: fixed;
+                width: 100%;
+                height: 55px;
+                left: 0px;
+                right: 0px;
+                top: 0px;
+                box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+            }
+            .allHeader {
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+            }
+            .part1 {
+                margin-left: 50px;
+                display: flex;
+                align-items: baseline;
+            }
+            .logo {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: x-large;
+                color: rgb(255, 255, 255);
+                letter-spacing: 2px;
+            }
+            .home {
+                margin-top: 20px;
+                font-family: Arial;
+                font-size: large;
+                color:rgb(255, 255, 255);
+                cursor: pointer;
+                letter-spacing: 3px;
+                text-decoration: none;
+            }
+            .part1 a:hover {
+                color: rgb(106, 157, 123);
+            }
+            .part2 {
+                display: flex;
+                margin-left: 1000px;
+                align-items: baseline;
+                gap: 50px;
+            }
+            .history {
+                font-family: Arial;
+                font-size: large;
+                color:rgba(255, 255, 255, 1);
+                cursor: pointer;
+                letter-spacing: 3px;
+                text-decoration: none;
+            }
+            .other {
+                font-family: Arial;
+                font-size: large;
+                color:hsl(0, 0%, 100%);
+                cursor: pointer;
+                letter-spacing: 3px;
+                text-decoration: none;
+            }
+            .references {
+                font-family: Arial;
+                font-size: large;
+                color:hsla(0, 0%, 100%, 1);
+                cursor: pointer;
+                letter-spacing: 3px;
+                text-decoration: none;
+            }
+            .part2 a:hover {
+                color:rgb(106, 157, 123);
+            }
+            .pageBody {
+                display: flex;
+            }
+            .allBody {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                width: 100%;
+                color:#ffffff;
+                margin-top: 70px;
+            }
+            .countryName {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: xx-large;
+                text-align: center;
+            } 
+            .information {
+                margin-top: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                letter-spacing: 2px;
+                width: 95%;
+            }
+            .images {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .image1 {
+                position: relative;      
+                margin-top: 30px;
+                width: 350px;
+                height: 250px;
+            }
+            .image2 {
+                position: relative;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "page">
+            <div class = "pageHeader">
+                <div class = "allHeader">
+                    <div class = "part1">
+                        <div class = "logo">
+                            KZ
+                        </div>
+                    </div>
+                    <div class = "part2">
+                        <a class = "home" href = "Sport.html" > 
+                            Sport
+                        </a>
+                        <a class = "history" href = "art.html" >
+                            Bilim
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class = "pageBody">
+                <div class = "allBody">
+                    <div class = "countryName"> Kazakhstan </div>
+                    <p class = "information" > Kazakhstan -  is a country in Central Asia with a land area of 2,724,900 square kilometres. 
+                        It has borders with Russia in the north, China in the east, and Kyrgyzstan, Uzbekistan, and Turkmenistan in the south. 
+                        The capital is Nur-Sultan, formerly known as Astana. It was moved from Almaty, the country's largest city, in 1997. 
+                        Kazakhstan is the world's largest landlocked country, and the ninth-largest in the world. 
+                        It has a population of 18.8 million, and one of the lowest population densities in the world, 
+                        at fewer than 6 people per square kilometre. 
+                    </p>
+                    <div class = "images">
+                        <img class = "image1" src = "https://www.advantour.com/img/kazakhstan/people/kazakh-people1.jpg">
+                        <img class = "image1" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/SB_-_Kazakh_man_on_horse_with_golden_eagle_1911-1914.jpg/1024px-SB_-_Kazakh_man_on_horse_with_golden_eagle_1911-1914.jpg">
+                        <img class = "image1" src = "https://media.istockphoto.com/photos/kazakh-couple-in-traditional-costume-picture-id515473792?k=20&m=515473792&s=612x612&w=0&h=KG1013HjPGRiapWwdWzyIhLkFZaPjZWRuU19x81SWmw=">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
